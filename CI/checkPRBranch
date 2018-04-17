@@ -35,7 +35,7 @@ else
                 echo ""
                 echo "Pull request opened to wrong branch!"
                 echo ""
-                echo "Pul requests need to go to our 'dev' branch but your pull-request from '"$TRAVIS_PULL_REQUEST_SLUG"' was"
+                echo "Pull requests need to go to our 'dev' branch but your pull-request from '"$TRAVIS_PULL_REQUEST_SLUG"' was"
                 echo "sent to 'master' which is only updated by our maintainers for new stable releases."
                 echo ""
                 echo "Please re-open your pull-request against our 'dev' branch:"
